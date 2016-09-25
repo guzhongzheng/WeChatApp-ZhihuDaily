@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="card" wx:for-index="itemIndex" wx:for="{{articles}}">
+    <view class="sub-card">
+      <text class="title">{{item.title}}</text>
+      <image class="avatar" src="{{item.images[0]}}" />
+    </view>
+  </view>
+</view>
